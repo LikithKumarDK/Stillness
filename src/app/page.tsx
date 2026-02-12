@@ -4,6 +4,8 @@ import EntropyTracker from "@/components/EntropyTracker";
 import CrystallizedText from "@/components/CrystallizedText";
 import { useState, useEffect } from "react";
 
+export const runtime = 'edge';
+
 export default function Home() {
     const [mounted, setMounted] = useState(false);
 
